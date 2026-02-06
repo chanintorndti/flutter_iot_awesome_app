@@ -9,14 +9,14 @@ version: 1.0.0+1
 environment:
   sdk: ">=3.2.0 <4.0.0"
 
-dependencies:
+dependencies: # แพ็คเกจตรงนี้จะเอาไปใช้ในการเขียนโค้ด
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
   google_fonts: ^8.0.0
   font_awesome_flutter: ^10.12.0
 
-dev_dependencies:
+dev_dependencies: # แพ็คเกจตรงนี้จะเอาไว้ช่วยขณะพัฒนา
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
